@@ -1,0 +1,41 @@
+<section class="mx-auto w-full max-w-screen-sm px-4">
+  <form [formGroup]="form" (ngSubmit)="submit()" class="space-y-4 md:space-y-6">
+    <div>
+      <label
+        for="title"
+        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+      >
+        Título
+      </label>
+      <input
+        type="text"
+        id="title"
+        formControlName="title"
+        class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-green-600 focus:border-green-600 block w-full p-2.5"
+      />
+      
+    </div>
+
+    <div>
+      <label class="inline-flex items-center cursor-pointer">
+        <input
+          type="checkbox"
+          formControlName="paid"
+          class="sr-only peer"
+        />
+        <div
+          class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer-checked:bg-blue-600"
+        ></div>
+        <span class="ms-3 text-sm font-medium text-gray-900">Pagado</span>
+      </label>
+    </div>
+
+    <button
+      type="submit"
+      [disabled]="loading()"
+      class="text-white bg-green-600 hover:bg-green-700 px-4 py-2 rounded"
+    >
+      {{ loading() ? 'Guardando...' : 'Guardar' }}
+    </button>
+  </form>
+</section>
