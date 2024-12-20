@@ -1,0 +1,19 @@
+{
+  "expenses": [
+    {
+      "id": "1",
+      "title": "Pagar los servicios ",
+      "paid": false
+    },
+    {
+      "id": "5cea",
+      "title": "lavar la casa",
+      "paid": true
+    },
+    {
+      "id": "0ab5",
+      "title": "asasas",
+      "paid": false
+    }
+  ]
+}
