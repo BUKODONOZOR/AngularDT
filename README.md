@@ -90,5 +90,8 @@ Full Firebase Integration: I plan to fully integrate Firebase for database manag
 
 ![image](https://github.com/user-attachments/assets/7429373c-f9f8-4096-bb3b-fce176742d21)
 
+![image](https://github.com/user-attachments/assets/351d4b58-18d2-4aec-ba62-9ce7d03b8012)
+
+![image](https://github.com/user-attachments/assets/8b60fba1-bcdc-4132-91a1-d0fb00ae6b83)
 
 
