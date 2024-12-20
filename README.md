@@ -14,17 +14,19 @@ Firebase: Used for Authentication.
 Official Documentation: Firebase
 
 JSON Server: A local database for handling data in the app.
+https://www.npmjs.com/package/json-server
 
 Official Documentation: JSON Server
 Tailwind CSS: A utility-first CSS framework for building custom designs.
 
 Official Documentation: Tailwind CSS
+tailwindcss.com
 Flowbite: A component library for building UI elements such as forms and buttons.
 
-Official Documentation: Flowbite
+Official Documentation: Flowbite.com
 Ng Zorro: A library of Ant Design components for Angular.
 
-Official Documentation: Ng Zorro
+Official Documentation: Ng Zorro https://ng.ant.design/docs/migration-v18/en
 
 How to Run the Project
 
@@ -84,6 +86,9 @@ Ng Zorro and ngx-toastr: I want to fully implement Ng Zorro components for a pol
 
 CRUD Operations: There's room to improve the CRUD operations, focusing on best practices for accessibility, error handling, and user experience.
 
-Full Firebase Integration: I plan to fully integrate Firebase for database management, removing the dependency on JSON Server and leveraging Firestore instead.
+Full Firebase Integration: I plan to fully integrate Firebase for database management, removing the dependency on JSON Server and leveraging Firestore instead. 
+
+![image](https://github.com/user-attachments/assets/7429373c-f9f8-4096-bb3b-fce176742d21)
+
 
 
